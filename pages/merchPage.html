@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CROSSFADED</title>
+    <link rel="stylesheet" href="../styling/normalize.css">
+    <link rel="stylesheet" href="../styling/styles.css">
+    <link rel="stylesheet" href="../styling/merchPage.css">
+
+</head>
+<body>
+    <header>
+        <div class="main-nav-container">
+            <div class="short-nav-container">
+                <div class="menu-icon-container">
+                    <div class="menu-icon-element" id="dot-one"></div>
+                    <div class="menu-icon-element" id="dot-two"></div>
+                    <div class="menu-icon-element" id="dot-three"></div>
+                </div>
+                <div class="vertical-title-container">
+                    <p class="vertical-title">CROSSFADED</p>
+                </div>
+            </div>
+            <div class="large-transitional-nav-container">
+                <ul class="nav-ul">
+                    <li class="nav-ul-li">
+                        <a href="../pages/index.html">HOME</a>
+                        <p>1</p>
+                    </li>
+                    <li class="nav-ul-li">
+                        <a href="../pages/barberPage.html">BARBERS</a>
+                        <p>2</p>
+                    </li>
+                    <li class="nav-ul-li">
+                        <a href="../pages/merchPage.html">MERCH</a>
+                        <p>3</p>
+                    </li>
+                    <li class="nav-ul-li">
+                        <a href="../pages/galleryPage.html">GALLERY</a>
+                        <p>4</p>
+                    </li>
+                    <li class="nav-ul-li">
+                        <a href="../pages/aboutPage.html">ABOUT</a>
+                        <p>5</p>
+                    </li>
+                    <li class="nav-ul-li">
+                        <a href="../pages/contactPage.html">CONTACT</a>
+                        <p>6</p>
+                    </li>
+                    <div class="nav-bottom-filler">
+                        <p>Merch</p>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="fill-in-div-container">
+        <div class="merchPage-section1-container">
+            <div class="merchPage-hero-left">
+                <video class="merchPage-background-vid" width="100%" height="100%" autoplay muted loop>
+                    <source src="../IRL-images/iphone-video.mp4" type="video/mp4">
+                </video>
+                <div class="call-to-shop-container">
+                    <p class="call-to-shop">BUY MERCH</p>
+                    <p class="call-to-shop-sub">(at barbershop location)</p>
+                </div>
+            </div>
+            <div class="merchPage-hero-right">
+                <div class="iphone-frame">
+                    <video class="iphone-vid" width="325" height="718.5px" autoplay muted loop>
+                        <source src="../IRL-images/iphone-video.mp4" type="video/mp4">
+                    </video>
+                    <img class="iphone-frame-img" src="../IRL-images/iphone-14-pro-no-space.png" alt="iphone 14 playing a video">
+                </div>
+            </div>
+        </div>
+        <div class="fill-in-div">
+        </div>
+    </div>
+
+
+
+    <!-- <div class="fill-in-div-container">
+        <div class="merchPage-section2-container">
+            <p class="click-model-p">click model below to see merch</p>
+            <div class="icon-wrapper">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.5858 29.4142C14.3668 30.1953 15.6332 30.1953 16.4142 29.4142L29.1421 16.6863C29.9232 15.9052 29.9232 14.6389 29.1421 13.8579C28.3611 13.0768 27.0948 13.0768 26.3137 13.8579L15 25.1716L3.68629 13.8579C2.90524 13.0768 1.63891 13.0768 0.857864 13.8579C0.0768158 14.6389 0.0768158 15.9052 0.857864 16.6863L13.5858 29.4142ZM17 2C17 0.895431 16.1046 0 15 0C13.8954 0 13 0.895431 13 2H17ZM17 15.4815V2H13V15.4815H17ZM13 2V28H17V2H13Z" fill="#1ADAD3"/>
+                </svg>
+            </div>
+        </div>
+        <div class="fill-in-div">
+        </div>
+    </div> -->
+
+    <div class="fill-in-div-container">
+        <div class="merchPage-section3-container-height-adjuster">
+            <div class="merchPage-section3-container">
+                <div class="select-merch-container">
+                    <img class="grayscale-img" src="../IRL-images/crew-grayscale-s.jpeg" alt="three barbers posing in grayscale with t-shirts from barbershop">
+                    <!-- gray-scale -->
+                    <img class="damon-back" src="../IRL-images/damon-back-cropped-s-gs.png" alt="backside of barber with crossfaded jersey">
+                    <img class="damon-front" src="../IRL-images/damon-front-cropped-s-gs.png" alt="barber wearing Crossfaded jersey">
+                    <!-- color -->
+                    <img class="cropped-img" id="maybo-jinpo-color" src="../IRL-images/maybo-jinpo-cropped-s.png" alt="two models posing with Crossfaded merch">
+                    <img class="cropped-img" id="seho-color" src="../IRL-images/seho-cropped-s.png" alt="one model posing with Crossfaded merch">
+                    <img class="damon-back" id="damon-back-color" src="../IRL-images/damon-back-cropped-s.png" alt="backside of barber with crossfaded jersey">
+                    <img class="damon-front" id="damon-front-color" src="../IRL-images/damon-front-cropped-s.png" alt="barber wearing Crossfaded jersey">
+                    <!-- hitBoxes -->
+                    <div id="damon-hitBox-left"></div>
+                    <div id="damon-hitBox-right"></div>
+                    <div id="maybo-jinpo-hitBox"></div>
+                    <div id="seho-hitBox"></div>
+                </div>
+
+
+
+            <!-- MOBILE ASSETS INSIDE S3 container -->
+
+            <div class="star">
+                <div class="planet">
+                    <!-- dark -->
+                    <div class="moon" id="seho-moon" style="--moon-number:1">
+                        <div class="relative-moon-img-container">
+                            <img class="moon-img-gs" src="../IRL-images/mobile/seho-mobile-crop-gs.png" alt="crossfaded sweater grayscale">
+                            <img class="moon-img-color" id="seho-moon-img" src="../IRL-images/mobile/seho-mobile-crop.png" alt="crossfaded sweater color">
+                        </div>
+                    </div>
+                    <div class="moon" id="mj-moon" style="--moon-number:2">
+                        <img class="moon-img-gs" src="../IRL-images/mobile/mj-mobile-crop-gs.png" alt="crossfaded shirt grayscale">
+                        <img class="moon-img-color" id="mj-moon-img" src="../IRL-images/mobile/mj-mobile-crop.png" alt="crossfaded shirt color">
+
+                    </div>
+                    <div class="moon" id="damon-moon" style="--moon-number:3">
+                        <img class="moon-img-gs" src="../IRL-images/mobile/damon-mobile-crop-gs.png" alt="crossfaded jersey grayscale">
+                        <img class="moon-img-color" id="damon-moon-img" src="../IRL-images/mobile/damon-mobile-crop.png" alt="crossfaded jersey color">
+                    </div>
+                </div>
+            </div>
+
+            <div class="moon-btn-container">
+                <div class="prev-moon-btn">
+                    <svg width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.585786 13.5858C-0.195262 14.3668 -0.195262 15.6332 0.585786 16.4142L13.3137 29.1421C14.0948 29.9232 15.3611 29.9232 16.1421 29.1421C16.9232 28.3611 16.9232 27.0948 16.1421 26.3137L4.82843 15L16.1421 3.68629C16.9232 2.90524 16.9232 1.63891 16.1421 0.857864C15.3611 0.0768158 14.0948 0.0768158 13.3137 0.857864L0.585786 13.5858ZM35 13H2V17H35V13Z" fill="#1ADAD3"/>
+                    </svg>
+                </div>
+                <div class="select-moon-btn">
+                    <p>
+                        SELECT
+                    </p>
+                </div>
+                <div class="next-moon-btn">
+                    <svg width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M34.4142 16.4142C35.1953 15.6332 35.1953 14.3668 34.4142 13.5858L21.6863 0.857864C20.9052 0.0768158 19.6389 0.0768158 18.8579 0.857864C18.0768 1.63891 18.0768 2.90524 18.8579 3.68629L30.1716 15L18.8579 26.3137C18.0768 27.0948 18.0768 28.3611 18.8579 29.1421C19.6389 29.9232 20.9052 29.9232 21.6863 29.1421L34.4142 16.4142ZM-1.78814e-07 17L33 17V13L-1.78814e-07 13V17Z" fill="#1ADAD3"/>
+                    </svg>
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+        <div class="fill-in-div">
+        </div>
+    </div>
+
+
+
+
+
+    <div class="fill-in-div-container">
+        <div class="merchPage-section4-container slider-section">
+            <span class="prev-button" id="prev-button1">
+                <svg width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.585786 13.5858C-0.195262 14.3668 -0.195262 15.6332 0.585786 16.4142L13.3137 29.1421C14.0948 29.9232 15.3611 29.9232 16.1421 29.1421C16.9232 28.3611 16.9232 27.0948 16.1421 26.3137L4.82843 15L16.1421 3.68629C16.9232 2.90524 16.9232 1.63891 16.1421 0.857864C15.3611 0.0768158 14.0948 0.0768158 13.3137 0.857864L0.585786 13.5858ZM35 13H2V17H35V13Z" fill="#1ADAD3"/>
+                </svg>
+            </span>
+                <div class="carousel" id="carousel1">
+                    <div class="slider" id="slider1">
+                        <img class="sweater-img" src="../IRL-images/sweater/hoodie1.jpg" alt="crossfaded hoodie">
+                        <img class="sweater-img" src="../IRL-images/sweater/hoodie2.jpg" alt="crossfaded hoodie">
+                        <img class="sweater-img" src="../IRL-images/sweater/hoodie3.jpg" alt="crossfaded hoodie">
+                        <img class="sweater-img" src="../IRL-images/sweater/hoodie4.jpg" alt="crossfaded hoodie">
+                        <img class="sweater-img" src="../IRL-images/sweater/hoodie5.jpg" alt="crossfaded hoodie">
+                    </div>
+                </div>
+            <span class="next-button" id="next-button1">
+                <svg width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M34.4142 16.4142C35.1953 15.6332 35.1953 14.3668 34.4142 13.5858L21.6863 0.857864C20.9052 0.0768158 19.6389 0.0768158 18.8579 0.857864C18.0768 1.63891 18.0768 2.90524 18.8579 3.68629L30.1716 15L18.8579 26.3137C18.0768 27.0948 18.0768 28.3611 18.8579 29.1421C19.6389 29.9232 20.9052 29.9232 21.6863 29.1421L34.4142 16.4142ZM-1.78814e-07 17L33 17V13L-1.78814e-07 13V17Z" fill="#1ADAD3"/>
+                </svg>
+            </span>
+        </div>
+        <div class="fill-in-div">
+        </div>
+    </div>
+
+    <div class="fill-in-div-container">
+        <div class="merchPage-section5-container slider-section">
+            <span class="prev-button" id="prev-button2">
+                <svg width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.585786 13.5858C-0.195262 14.3668 -0.195262 15.6332 0.585786 16.4142L13.3137 29.1421C14.0948 29.9232 15.3611 29.9232 16.1421 29.1421C16.9232 28.3611 16.9232 27.0948 16.1421 26.3137L4.82843 15L16.1421 3.68629C16.9232 2.90524 16.9232 1.63891 16.1421 0.857864C15.3611 0.0768158 14.0948 0.0768158 13.3137 0.857864L0.585786 13.5858ZM35 13H2V17H35V13Z" fill="#1ADAD3"/>
+                </svg>
+            </span>
+                <div class="carousel" id="carousel2">
+                    <div class="slider" id="slider2">
+                        <img class="shirt-img" src="../IRL-images/t-shirt/shirt1.jpg" alt="crossfaded t-shirt">
+                        <img class="shirt-img" src="../IRL-images/t-shirt/shirt2.jpg" alt="crossfaded t-shirt">
+                        <img class="shirt-img" src="../IRL-images/t-shirt/shirt3.jpg" alt="crossfaded t-shirt">
+                        <img class="shirt-img" src="../IRL-images/t-shirt/shirt4.jpg" alt="crossfaded t-shirt">
+                        <img class="shirt-img" src="../IRL-images/t-shirt/shirt5.jpg" alt="crossfaded t-shirt">
+                        <img class="shirt-img" src="../IRL-images/t-shirt/shirt6.jpg" alt="crossfaded t-shirt">
+                        <img class="shirt-img" src="../IRL-images/t-shirt/shirt7.jpg" alt="crossfaded t-shirt">
+                        <img class="shirt-img" src="../IRL-images/t-shirt/shirt8.jpg" alt="crossfaded t-shirt">
+                        <img class="shirt-img" src="../IRL-images/t-shirt/shirt9.jpg" alt="crossfaded t-shirt">
+                        <img class="shirt-img" src="../IRL-images/t-shirt/shirt10.jpg" alt="crossfaded t-shirt">
+                    </div>
+                </div>
+            <span class="next-button" id="next-button2">
+                <svg width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M34.4142 16.4142C35.1953 15.6332 35.1953 14.3668 34.4142 13.5858L21.6863 0.857864C20.9052 0.0768158 19.6389 0.0768158 18.8579 0.857864C18.0768 1.63891 18.0768 2.90524 18.8579 3.68629L30.1716 15L18.8579 26.3137C18.0768 27.0948 18.0768 28.3611 18.8579 29.1421C19.6389 29.9232 20.9052 29.9232 21.6863 29.1421L34.4142 16.4142ZM-1.78814e-07 17L33 17V13L-1.78814e-07 13V17Z" fill="#1ADAD3"/>
+                </svg>
+            </span>
+        </div>
+        <div class="fill-in-div">
+        </div>
+    </div>
+
+    <div class="fill-in-div-container">
+        <div class="merchPage-section6-container slider-section">
+            <span class="prev-button" id="prev-button3">
+                <svg width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.585786 13.5858C-0.195262 14.3668 -0.195262 15.6332 0.585786 16.4142L13.3137 29.1421C14.0948 29.9232 15.3611 29.9232 16.1421 29.1421C16.9232 28.3611 16.9232 27.0948 16.1421 26.3137L4.82843 15L16.1421 3.68629C16.9232 2.90524 16.9232 1.63891 16.1421 0.857864C15.3611 0.0768158 14.0948 0.0768158 13.3137 0.857864L0.585786 13.5858ZM35 13H2V17H35V13Z" fill="#1ADAD3"/>
+                </svg>
+            </span>
+                <div class="carousel" id="carousel3">
+                    <div class="slider" id="slider3">
+                        <img class="jersey-img" src="../IRL-images/jersey/jersey1.jpg" alt="crossfaded jersey">
+                        <img class="jersey-img" src="../IRL-images/jersey/jersey2.jpg" alt="crossfaded jersey">
+                        <img class="jersey-img" src="../IRL-images/jersey/jersey3.jpg" alt="crossfaded jersey">
+                        <img class="jersey-img" src="../IRL-images/jersey/jersey4.jpg" alt="crossfaded jersey">
+                        <img class="jersey-img" src="../IRL-images/jersey/jersey5.jpg" alt="crossfaded jersey">
+
+                    </div>
+                </div>
+            <span class="next-button" id="next-button3">
+                <svg width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M34.4142 16.4142C35.1953 15.6332 35.1953 14.3668 34.4142 13.5858L21.6863 0.857864C20.9052 0.0768158 19.6389 0.0768158 18.8579 0.857864C18.0768 1.63891 18.0768 2.90524 18.8579 3.68629L30.1716 15L18.8579 26.3137C18.0768 27.0948 18.0768 28.3611 18.8579 29.1421C19.6389 29.9232 20.9052 29.9232 21.6863 29.1421L34.4142 16.4142ZM-1.78814e-07 17L33 17V13L-1.78814e-07 13V17Z" fill="#1ADAD3"/>
+                </svg>
+            </span>
+        </div>
+        <div class="fill-in-div">
+        </div>
+    </div>
+    <div class="fixed-arrow-container">
+        <div class="fixed-arrow" id="up-arrow">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.4142 0.585786C15.6332 -0.195263 14.3668 -0.195263 13.5858 0.585786L0.857864 13.3137C0.0768158 14.0948 0.0768158 15.3611 0.857864 16.1421C1.63891 16.9232 2.90524 16.9232 3.68629 16.1421L15 4.82843L26.3137 16.1421C27.0948 16.9232 28.3611 16.9232 29.1421 16.1421C29.9232 15.3611 29.9232 14.0948 29.1421 13.3137L16.4142 0.585786ZM13 28C13 29.1046 13.8954 30 15 30C16.1046 30 17 29.1046 17 28H13ZM13 14.5185L13 28H17V14.5185H13ZM17 28L17 2H13L13 28H17Z" fill="#1ADAD3"/>
+            </svg>
+        </div>
+        <div class="fixed-arrow" id="down-arrow">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.5858 29.4142C14.3668 30.1953 15.6332 30.1953 16.4142 29.4142L29.1421 16.6863C29.9232 15.9052 29.9232 14.6389 29.1421 13.8579C28.3611 13.0768 27.0948 13.0768 26.3137 13.8579L15 25.1716L3.68629 13.8579C2.90524 13.0768 1.63891 13.0768 0.857864 13.8579C0.0768158 14.6389 0.0768158 15.9052 0.857864 16.6863L13.5858 29.4142ZM17 2C17 0.895431 16.1046 0 15 0C13.8954 0 13 0.895431 13 2H17ZM17 15.4815V2H13V15.4815H17ZM13 2V28H17V2H13Z" fill="#1ADAD3"/>
+            </svg>
+        </div>
+
+        <div class="new-mobile-arrows-container">
+            <span class="prev-button" id="fixed-prev-button">
+                <svg width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.585786 13.5858C-0.195262 14.3668 -0.195262 15.6332 0.585786 16.4142L13.3137 29.1421C14.0948 29.9232 15.3611 29.9232 16.1421 29.1421C16.9232 28.3611 16.9232 27.0948 16.1421 26.3137L4.82843 15L16.1421 3.68629C16.9232 2.90524 16.9232 1.63891 16.1421 0.857864C15.3611 0.0768158 14.0948 0.0768158 13.3137 0.857864L0.585786 13.5858ZM35 13H2V17H35V13Z" fill="#1ADAD3"/>
+                </svg>
+            </span>
+            <span class="next-button" id="fixed-next-button">
+                <svg width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M34.4142 16.4142C35.1953 15.6332 35.1953 14.3668 34.4142 13.5858L21.6863 0.857864C20.9052 0.0768158 19.6389 0.0768158 18.8579 0.857864C18.0768 1.63891 18.0768 2.90524 18.8579 3.68629L30.1716 15L18.8579 26.3137C18.0768 27.0948 18.0768 28.3611 18.8579 29.1421C19.6389 29.9232 20.9052 29.9232 21.6863 29.1421L34.4142 16.4142ZM-1.78814e-07 17L33 17V13L-1.78814e-07 13V17Z" fill="#1ADAD3"/>
+                </svg>
+            </span>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+<script type="module" src="../javascript/nav.js"></script>
+<script src="../javascript/merchPage.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
