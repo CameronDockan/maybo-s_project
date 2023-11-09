@@ -147,9 +147,9 @@ body {
     background-image: linear-gradient(to left, #000000, #1d1c1c, #343231, #4d4a47, #65635f);
 }
 
-.nav-ul-li:hover a {
+/* .nav-ul-li:hover a {
     font-style: italic;
-}
+} */
 
 .nav-ul-li a {
     text-decoration: none;

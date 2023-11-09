@@ -13,7 +13,7 @@
 
 /* SECTION 1 */
 .fill-in-div {
-    border: 5px solid aqua;
+    /* border: 5px solid aqua; */
 }
 
 .merchPage-section1-container {
@@ -192,7 +192,7 @@
 }
 
 .merchPage-section3-container {
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
     width: 100vw;
     height: 533px;
     overflow: hidden;
@@ -204,7 +204,7 @@
 }
 
 .select-merch-container {
-    border: 5px solid lawngreen;
+    /* border: 5px solid lawngreen; */
     width: 800px;
     min-width: 800px;
     height: 100%;
@@ -229,7 +229,7 @@
     display: none;
     aspect-ratio: 1/1;
     width: var(--planet-size);
-    background-color: rgb(26, 218, 211);
+    /* background-color: rgb(26, 218, 211); */
     position: relative;
     border-radius: 50%;
 
@@ -239,7 +239,7 @@
     display: none;
     aspect-ratio: 2/3;
     height: var(--moon-size);
-    border: 1px solid rgb(212, 255, 0);
+    /* border: 1px solid rgb(212, 255, 0); */
     transition: transform .7s ease-out, opacity .2s ease;
     position: absolute;
     left: 50%;
@@ -364,7 +364,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     object-fit: scale-down;
-    -webkit-filter: sepia(100%) hue-rotate(300deg); 
+    /* -webkit-filter: sepia(100%) hue-rotate(300deg);  */
 }
 
 #damon-front-color, #maybo-jinpo-color, #seho-color, #damon-back-color {
@@ -449,7 +449,7 @@
 .merchPage-section4-container,
 .merchPage-section5-container,
 .merchPage-section6-container {
-    border: 5px solid orangered;
+    /* border: 5px solid orangered; */
     width: 100vw;
     height: 800px;
     /* display: flex; */
