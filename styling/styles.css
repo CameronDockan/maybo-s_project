@@ -126,7 +126,7 @@ body {
 
 .nav-ul-li {
     list-style: none;
-    border: 1px solid rgb(26, 218, 211);
+    border: 1px solid rgba(0, 0, 0, 0);
     background-color: rgba(101,99,95,1);
     width: 0%;
     height: 125px;
@@ -141,6 +141,7 @@ body {
 }
 .nav-ul-li-clicked {
     width: 50%;
+    border: 1px solid rgb(26, 218, 211);
 }
 
 .nav-ul-li:hover {
@@ -164,7 +165,7 @@ body {
 }
 
 .nav-bottom-filler {
-    border: 1px solid rgb(26, 218, 211);
+    border: 1px solid rgba(0, 0, 0, 0);
     background-color: rgba(101,99,95,1);
     width: 50%;
     overflow: hidden;
@@ -181,7 +182,7 @@ body {
 
 .nav-bottom-filler-clicked {
     padding-right: 30px;
-
+    border: 1px solid rgb(26, 218, 211);
 }
 
 .nav-bottom-filler:hover {
@@ -384,7 +385,7 @@ body {
     justify-content: center;
     width: 100%;
     height: 100%;
-    border: 5px solid pink;
+    border: 5px solid aliceblue;
 }
 
 #cnvs {
