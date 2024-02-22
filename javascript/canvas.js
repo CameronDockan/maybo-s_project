@@ -396,7 +396,7 @@ class Clippers {
         this.w = 250;
         this.h = 250;
         this.x = 0 - this.w;
-        this.y= 0;
+        this.y = 0;
         this.t = 0;
         this.speed = .02;
         this.touchaku = false;

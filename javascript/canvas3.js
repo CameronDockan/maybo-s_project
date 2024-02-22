@@ -13,8 +13,6 @@ let barberListContainer = document.querySelector('.barber-list-container');
 
 let particleText = 'Select A Barber'
 
-
-
 window.onload = function () {
     resizeCanvasWidth3();
     resizeCanvasHeight3();
@@ -552,7 +550,6 @@ effect.wrapText(particleText);
 
 
 function animate() {
-
 
     if (
         img1.classList.contains("barber-img-active") ||
